@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    
+}
+
+/* Header Start*/
+
+.header-menu {
+	padding: 37px 142px;
+    background-color: #000;
+	
+}
+.header-munu ul{
+	position: absolute;	
+}
+
+.header-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.header-menu ul li a {
+	display: inline-block;
+	color: burlywood;
+	padding: 11px 21px;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.header-menu ul li ul {
+	position: absolute;
+	left: 0;
+	top: 100%;
+    width: 245px;
+	background-color: black;  
+	transition: .5s;
+
+}
+.header-menu ul li ul li{
+    display: block;
+    border: none;
+	position: relative;
+   
+}
+.header-menu ul li ul li a{
+     display: block;
+     border: none;
+     border-bottom: 1px solid #ddd;
+	 text-align: center;
+	 position: relative;
+    
+}
+  .header-menu ul li ul{
+      opacity: 0;
+      visibility: hidden;
+
+      transform: scaley(0);
+       transform-origin:bottom center ;
+  }
+.header-menu ul li:hover>ul{
+         opacity: 1;
+      visibility: visible;
+       transform: scaley(1);
+      
+      
+}
+.header-menu ul li ul li a:hover{
+ background-color: green;
+}
+
+
+.header-menu ul li ul li ul{
+     left: 100%;
+	margin-top: -42px;
+}
+.header-menu ul li ul li ul li a{
+	text-align: center;
+}
+
+
+/* Header End */
+
+.bgimage{
+    background-image: url(https://i.im.ge/2021/08/10/9hQkc.jpg);
+    text-align: center;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+   
+    
+}
+
+.bgimage h1{
+    background-color:white;
+    padding: 20px 20px;
+    display: inline-block;
+    color: #000;
+
+}
+
+.bgimage p{
+    background-color:#fff;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.bgimage button{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+}
+.bgimage button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid red;
+
+    
+}
+.box1{
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+.box1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.box2{
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    list-style-position: inside;
+    padding-bottom: 40px;
+}
+.box2 h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.email{
+    background-color:#F2F2F2;
+    padding: 40px;
+    text-align: center;
+
+
+   
+}
+.email input {
+	padding: 15px 348px 15px 12px;
+	border: 2px solid red;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.email button{
+    background-color: red;
+    padding: 10px 10px;
+    color: #fff;
+
+}
+.email button:hover {
+	background-color: #fff;
+	border: 2px solid red;
+	color: #000;
+
+
+}
+.list-style{
+    outline-style: dotted;
+    outline-color: #ddd;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px 40px;
+    position: relative;
+
+}
+.list-style h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-style1 ul{
+    list-style-type: lower-roman;
+    position: absolute;
+
+}
+.list-style2 ul {
+    list-style-type: square;
+    position: absolute;
+    left: 372px;
+}
+
+.list-style3 ul {
+    list-style-type: lower-greek;
+    position: absolute;
+    left: 707px;
+}
+.footer{
+    background-color: #000;
+    padding-bottom: 50px;
+}
+.footer ul li {
+	display: inline-block;
+	background-color: #5EA5FA;
+	font-size: 21px;
+	border-radius: 100%;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	margin: 0 6px;
+}
+.footer ul {
+    text-align: center;
+    
+    
+}
+.footer p{
+    text-align: center;
+    margin: 30px 20px;
+    color: #fff;
+    padding-top: 30px;
+}
